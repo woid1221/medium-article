@@ -1,0 +1,166 @@
+body {
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: black;
+    line-height: 200%;
+}
+
+div {
+    background: white;                         /* White background */
+    padding: 30px;                             /* Internal space */
+    border-radius: 4px;                        /* Small radius */
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+}
+
+a.button {
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: 5px solid black;
+  border-radius: 5px;
+}
+
+a.button2 {
+  border: none;
+  color: black;
+  padding: 32px 64px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: 5px solid black;
+  border-radius: 5px;
+}
+
+a.button:hover {
+  background-color: black;
+  color: white
+}
+
+.containerAdjusted {
+  width: auto;
+  margin: 50px auto;
+}
+
+.container {
+    width: 700px;
+    margin: 50px auto;
+  }
+  
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+
+    }
+  }
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
+.text-center {
+    text-align: center;
+}
+
+.card {
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.img-circle {
+    border-radius: 10px;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline > li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.banner {
+  background-image: url("https://source.unsplash.com/random/1000x500");
+  background-size: cover;
+  color: white;
+  padding: 80px 0;
+}
+.banner h1 {
+  font-size: 38px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  line-height: 150%;
+  font-weight: bold;
+}
+.banner p {
+  font-size: 30px;
+  color: black;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+  text-align: center;
+}
+h1 {
+    color: maroon;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+}
+
+h2 {
+    color: maroon;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+h3 {
+    color: maroon;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+a {
+    color: #6B72E1;
+    font-size: 20px;
+}
+
+a:hover {
+    color: black;
+}
+
+li {
+    font-size: 20px;
+}
+
+.link-medium {
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+  color: #636363;
+  font-weight: lighter;
+  font-size: 25px;
+  font-style: italic;
+  text-align: center;
+}
+
+.link-medium:hover {
+  background-image: linear-gradient(to bottom, rgb(145, 19, 78), rgb(75, 27, 209));}
+}
